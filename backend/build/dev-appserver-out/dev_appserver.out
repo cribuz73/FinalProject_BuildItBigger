@@ -1,26 +1,19 @@
-Jul 24, 2018 8:39:22 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Jul 25, 2018 9:36:31 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value 'C:\Users\Cristi\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\google_appengine\google\appengine\tools\java\config\sdk\logging.properties' with value 'WEB-INF/logging.properties' from 'E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject\backend\build\exploded-backend\WEB-INF\appengine-web.xml'
-2018-07-24 20:39:23.093:INFO::main: Logging initialized @532ms
-Jul 24, 2018 5:39:23 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2018-07-25 09:36:31.686:INFO::main: Logging initialized @768ms
+Jul 25, 2018 6:36:32 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject) is not equal to your 
 web application root (E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject\backend\build\exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-2018-07-24 20:39:23.686:INFO:oejs.Server:main: jetty-9.3.18.v20170406
-2018-07-24 20:39:28.761:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=4413ms
-2018-07-24 20:39:29.055:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@55634720{/,file:///E:/AndroidStudioProjects/Gradle_build_it_bigger/FinalProject/backend/build/exploded-backend/,AVAILABLE}{E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject\backend\build\exploded-backend}
-2018-07-24 20:39:29.075:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@534a5a98{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-07-24 20:39:29.076:INFO:oejs.Server:main: Started @6516ms
-Jul 24, 2018 5:39:29 PM com.google.appengine.tools.development.AbstractModule startup
+2018-07-25 09:36:32.742:INFO:oejs.Server:main: jetty-9.3.18.v20170406
+2018-07-25 09:36:39.883:INFO:oeja.AnnotationConfiguration:main: Scanning elapsed time=6056ms
+2018-07-25 09:36:40.269:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@55634720{/,file:///E:/AndroidStudioProjects/Gradle_build_it_bigger/FinalProject/backend/build/exploded-backend/,AVAILABLE}{E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject\backend\build\exploded-backend}
+2018-07-25 09:36:40.292:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@534a5a98{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-07-25 09:36:40.295:INFO:oejs.Server:main: Started @9377ms
+Jul 25, 2018 6:36:40 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Jul 24, 2018 5:39:29 PM com.google.appengine.tools.development.AbstractModule startup
+Jul 25, 2018 6:36:40 AM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Jul 24, 2018 8:39:29 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Jul 25, 2018 9:36:40 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
-2018-07-24 21:06:26.808:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@534a5a98{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-07-24 21:06:26.814:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@55634720{/,file:///E:/AndroidStudioProjects/Gradle_build_it_bigger/FinalProject/backend/build/exploded-backend/,UNAVAILABLE}{E:\AndroidStudioProjects\Gradle_build_it_bigger\FinalProject\backend\build\exploded-backend}
-Jul 24, 2018 9:06:26 PM com.google.appengine.tools.development.AbstractModule shutdown
-INFO: Shutting down module instance default
-Jul 24, 2018 9:06:26 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
-INFO: scheduler shutting down.
-Shutting down.
